@@ -4,7 +4,8 @@
 
 <script>
 export default {
-  name: "MainPage"
+  name: "CurrentUserPage",
+  layout: 'app'
 }
 </script>
 

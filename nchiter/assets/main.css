@@ -1,0 +1,15 @@
+:root {
+  --gray-blue: #4C5B66;
+  --lighter-gray-blue: #566773;
+  --shadow-color: #00000059;
+}
+
+body {
+  background-color: var(--gray-blue);
+  color: #fff;
+  font-weight: 500;
+}
+
+a {
+  text-decoration: none !important;
+}

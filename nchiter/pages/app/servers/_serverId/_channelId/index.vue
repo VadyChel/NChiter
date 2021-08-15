@@ -1,10 +1,13 @@
 <template>
-<div></div>
+<div>
+  22rafaf
+</div>
 </template>
 
 <script>
 export default {
-  name: "MainPage"
+  name: "ChannelPage",
+  layout: 'app'
 }
 </script>
 
