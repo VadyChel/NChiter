@@ -1,11 +1,8 @@
 export default {
-  setCurrentChat: (state, chatName) => {
-    state.currentChat = chatName
+  setCurrentPrivateChannel (state, channelId) {
+    state.currentPrivateChannel = state.userPrivateChannels.find(channel => channel.id === channelId)?.username
   },
-  setCurrentServer: (state, serverName) => {
-    state.currentServer = serverName
-  },
-  setCurrentServers: (state, servers) => {
-    state.currentServers = servers
+  setUserPrivateChannels (state, channels) {
+    state.userPrivateChannels = channels
   }
 }

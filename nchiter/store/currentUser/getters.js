@@ -1,5 +1,5 @@
 export default {
-  currentChat: state => state.currentChat,
-  currentServer: state => state.currentServer,
-  currentServers: state => state.currentServers
+  currentUser: state => state.currentUser,
+  currentPrivateChannel: state => state.currentPrivateChannel,
+  userPrivateChannels: state => state.userPrivateChannels
 }

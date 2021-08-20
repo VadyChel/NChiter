@@ -1,15 +1,42 @@
+/* Base */
+
 :root {
+  --dark-grey-blue: #3a4a4e;
   --gray-blue: #4C5B66;
   --lighter-gray-blue: #566773;
   --shadow-color: #00000059;
 }
 
-body {
-  background-color: var(--gray-blue);
+.page {
+  background-color: var(--gray-blue) !important;
   color: #fff;
   font-weight: 500;
 }
 
 a {
   text-decoration: none !important;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+/* App's Channels Block */
+.channels-block {
+  width: 20%;
+  background-color: var(--lighter-gray-blue);
+}
+
+.channels-header {
+  display: flex;
+  align-items: center;
+  padding: 0 10px;
+  height: 48px;
+  width: 100%;
+  border-bottom: 2px var(--shadow-color) solid;
+}
+
+.channels-content {
+  width: 100%;
+  flex-grow: 1;
 }

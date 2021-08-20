@@ -5,7 +5,7 @@
 <script>
 export default {
   name: "CurrentUserPage",
-  layout: 'app'
+  layout: 'users'
 }
 </script>
 

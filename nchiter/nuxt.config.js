@@ -8,7 +8,6 @@ export default {
     port: 5000
   },
   head: {
-    titleTemplate: '%s - NChiter',
     title: 'NChiter',
     meta: [
       { charset: 'utf-8' },
